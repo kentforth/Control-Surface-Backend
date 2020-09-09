@@ -1,0 +1,14 @@
+{
+  "name": "control-surface-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "kentforth",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.6.1"
+  }
+}
