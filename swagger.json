@@ -1,0 +1,95 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Control Surface Backend",
+    "description": "API fro Control Surface Backend",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "host": "localhost:4050",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "Videos",
+      "description": "API for videos in the system"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/api/videos": {
+      "get": {
+        "tags": [
+          "Videos"
+        ],
+        "summary": "Get all videos",
+        "responses": {
+          "200": {
+            "description": "OK"
+
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Videos"
+        ],
+        "summary": "Add Video",
+        "responses": {
+          "201": {
+            "description": "OK"
+
+          }
+        }
+      }
+    },
+    "/api/videos/{id}": {
+      "get": {
+        "tags": [
+          "Videos"
+        ],
+        "summary": "Get a single video",
+        "responses": {
+          "200": {
+            "description": "OK"
+
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Videos"
+        ],
+        "summary": "Update Video",
+        "responses": {
+          "200": {
+            "description": "OK"
+
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Videos"
+        ],
+        "summary": "Delete Video",
+        "responses": {
+          "200": {
+            "description": "OK"
+
+          }
+        }
+      }
+    }
+  }
+}
